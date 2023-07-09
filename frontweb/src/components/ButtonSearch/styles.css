@@ -1,0 +1,139 @@
+.card-container-search {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    min-width: 296px;
+    min-height: 86px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 20px;
+}
+
+.car-filter-form input {
+    height: 40px;
+}
+
+.btn-content-cantainer-search {
+    display: flex;
+    justify-content: space-around;
+    min-width: 276px;
+}
+
+input {
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-color: transparent;
+    border-image: initial;
+}
+
+.btn-search {
+    width: 77px;
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+}
+
+@media (min-width: 576px) {
+    .card-container-search {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-width: 500px;
+        min-height: 123px;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+    .btn-content-cantainer-search {
+        display: flex;
+        justify-content: space-around;
+        min-width: 494px;
+        margin-left: 20px;
+    }
+    .car-search-form input {
+        min-width: 320px;
+    }
+    .btn-search {
+        margin-right: 16px;
+        width: 160px;
+        height: 40px;
+        border-radius: 0 5px 5px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-container-search {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-width: 650px;
+        min-height: 123px;
+        text-align: center;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 30px;
+    }
+    .btn-content-cantainer-search {
+        display: flex;
+        align-items: center;
+        min-width: 650px;
+        margin-left: 20px;
+    }
+    .car-search-form input {
+        min-width: 516px;
+    }
+    .car-filter-form {
+        width: 700px;
+    }
+    .btn-search {
+        width: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-container-search {
+        min-width: 700px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .card-container-search {
+        
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-top: 30px;
+    }
+
+    .btn-content-cantainer-search {
+        margin-left: 98px;
+        
+    }
+
+    .car-search-form {
+        min-width: 584px;
+    }
+}

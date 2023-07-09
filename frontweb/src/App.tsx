@@ -1,11 +1,11 @@
 import './assets/styles/custom.scss';
 import './App.css';
 
-function App() {
+import Routes from 'Routes';
 
-  return (
-    <h1>Hello DS Carros Top</h1>
-  );
+function App() {
+  return <Routes />;
 }
 
 export default App;
+
